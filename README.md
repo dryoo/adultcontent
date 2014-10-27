@@ -19,7 +19,7 @@ Your Google AdSense code...
 ...
 
 <?php } ?>
-
+</code>
 
 https://www.dokuwiki.org/plugin:adultcontent
  
