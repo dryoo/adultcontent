@@ -8,7 +8,7 @@ This simple plugin will check your dokuwiki page before being saved whether it c
 
 You can retrieve this flag in your template and might control your contents like Google AdSense.
 
-<code>
+```php
 
 <?php  if (!p_get_metadata($ID,"adult")) {?>
 
@@ -19,7 +19,7 @@ Your Google AdSense code...
 ...
 
 <?php } ?>
-</code>
+```
 
 https://www.dokuwiki.org/plugin:adultcontent
  
