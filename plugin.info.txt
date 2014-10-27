@@ -1,0 +1,8 @@
+﻿# General Plugin Info do not edit
+
+base   adultcontent
+author S.C. Yoo
+email  dryoo@Live.com
+date   2014-10-27
+name   Adult content
+url    http://dokuwiki.org/plugin:adultcontent
