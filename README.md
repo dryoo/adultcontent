@@ -21,7 +21,7 @@ Your Google AdSense code...
 <?php } ?>
 
 
-
+https://www.dokuwiki.org/plugin:adultcontent
  
 I just have a few pages which has medical information about sexually transmitted disease, but Google AdSense does not like them.
 so I made this plugin.

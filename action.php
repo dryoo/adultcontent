@@ -24,9 +24,13 @@ class action_plugin_adultcontent extends DokuWiki_Action_Plugin {
 	function adultcontent__check(&$event, $args) {
 
         global $ID;
+        
 		$adult = p_get_metadata($ID, "adult");
 		if ($adult == null) $adult=false;
-		if (preg_match('/19금|sex/si',$event->data[0][1]))
+        $regex=$this->getConf('keywords');
+    
+        echo "<script>alert(\"$regex\");</script>";
+		if (preg_match("/$regex/si",$event->data[0][1]))
 		{
 			$adult=true;
 		} else

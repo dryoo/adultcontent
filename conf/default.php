@@ -1,5 +1,5 @@
 <?php
 
 
-$conf['keywords']  = 'sex|porn|19금';
+$conf['keywords']  = 'sex|porn|orgy|19금';
 
