@@ -16,7 +16,7 @@ class action_plugin_adultcontent extends DokuWiki_Action_Plugin {
 
 	var $functions = null;
 
-	function register(&$controller) 
+	function register( Doku_Event_Handler $controller) 
 	{
 		$controller->register_hook('IO_WIKIPAGE_WRITE', 'BEFORE', $this, 'adultcontent__check');
 	}
