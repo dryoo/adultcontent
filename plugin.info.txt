@@ -1,8 +1,7 @@
-﻿# General Plugin Info do not edit
-
 base   adultcontent
 author S.C. Yoo
-email  dryoo@Live.com
-date   2014-10-27
+email  dryoo@live.com
+date   2026-11-17
 name   Adult content
-url    http://dokuwiki.org/plugin:adultcontent
+url    https://www.dokuwiki.org/plugin:adultcontent
+desc   Checks a page for configured keywords when it is saved and stores an "adult" flag in the page metadata.
